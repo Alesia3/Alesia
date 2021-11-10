@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class Task3 {
     public static void main(String[] args) {
-        int num1,num2;
+        int numA,numB;
         System.out.println("Введите два числа: ");
         Scanner input= new Scanner(System.in);
-        num1=input.nextInt();
-        num2=input.nextInt();
-        for (int i=num1+1;i<num2;i++){
+        numA=input.nextInt();
+        numB=input.nextInt();
+        for (int i=numA+1;i<numB;i++){
             System.out.print(i+" ");
 
         }
