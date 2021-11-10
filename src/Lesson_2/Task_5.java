@@ -5,11 +5,11 @@ public class Task_5 {
         double doubleValue=3.66;
         int value =(int)doubleValue;
         System.out.println(value);
-        int value1=(int)Math.round(doubleValue);
+        long value1=Math.round(doubleValue);
         System.out.println(value1);
-        int value2=(int) Math.ceil(doubleValue);
+        long value2=(long) Math.ceil(doubleValue);
         System.out.println(value2);
-        int value3=(int) Math.floor(doubleValue);
+        long value3= (long) Math.floor(doubleValue);
         System.out.println(value3);
     }
 }
