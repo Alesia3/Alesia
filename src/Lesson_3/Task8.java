@@ -2,7 +2,7 @@ package Lesson_3;
 
 public class Task8 {
     public static void main(String[] args) {
-        int mass[][] = {{6,2},{3,4}};
+        int mass[][] = {{6,6},{4,4}};
         int column = 0;
         for(int i=0; i<mass.length; i++){
             column=0;

@@ -8,20 +8,13 @@ public class Task2 {
         Scanner sc =new Scanner(System.in);
         int number=sc.nextInt();
 switch (number){
-    case 0:
-    case 5:
-    case 6:
-    case 7:
-    case 8:
-    case 9:
-        System.out.println(number + " дней");
+    case 0,5,6,7,8,9:
+           System.out.println(number + " дней");
         break;
     case 1:
         System.out.println(number + " день");
         break;
-    case 2:
-    case 3:
-    case 4:
+    case 2,3,4:
         System.out.println(number + " дня");
         break;
     default:

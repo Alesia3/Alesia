@@ -9,7 +9,7 @@ public class Task9 {
         Random random = new Random();
         Scanner scanner = new Scanner(System.in);
         number = random.nextInt(5);
-        System.out.println("Случайное число: "+ number);
+        System.out.println("Случайное число : "+ number);
         do {
             System.out.println("Угадайте число от 0 до 4: ");
             answer = scanner.nextInt();
